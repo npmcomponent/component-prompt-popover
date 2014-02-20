@@ -1,5 +1,5 @@
 {
-  "name": "prompt-popover",
+  "name": "component-prompt-popover",
   "description": "Popover prompt component",
   "version": "0.0.1",
   "keywords": [
@@ -7,21 +7,11 @@
     "popover",
     "ui"
   ],
+  "styles": [
+    "popover.css"
+  ],
   "dependencies": {
-    "popover-component": "*",
-    "jquery-component": "*"
-  },
-  "component": {
-    "scripts": {
-      "prompt-popover/index.js": "index.js",
-      "prompt-popover/template.js": "template.js"
-    },
-    "styles": [
-      "popover.css"
-    ]
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/component/prompt-popover.git"
+    "component-popover": "git://github.com/npmcomponent/component-popover.git",
+    "component-jquery": "git://github.com/npmcomponent/component-jquery.git"
   }
 }

@@ -3,8 +3,8 @@
  * Module dependencies.
  */
 
-var Popover = require('popover')
-  , o = require('jquery');
+var Popover = require('component-popover')
+  , o = require('component-jquery');
 
 /**
  * Expose `Prompt`.
